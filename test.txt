@@ -1,1 +1,2 @@
+Hello GitHubActions from storytwo
 Hello GitHubActions from stroyone
