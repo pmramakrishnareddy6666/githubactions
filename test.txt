@@ -1,2 +1,42 @@
-Hello GitHubActions from storytwo
-Hello GitHubActions from stroyone
+GitHub Actions - CI/CD Pipeline:
+
+GitHub Actions is a powerful automation tool provided by GitHub that enables developers to automate
+tasks related to their software development workflows. It allows for the creation of custom workflows,
+which can be triggered by various events, such as pushes to a repository, pull requests or scheduled
+events. These workflows can be used for various purposes, including Continuous Integration (CI) and 
+Continuous Development (CD), testing and more.
+
+GitHub --> Code Repository --> Commit Code --> Collaborative 
+
+Git --> Distributed various control system [developers] --> Track source code files.
+
+
+                -------------  ----> developer 1 --> Working on Explore feature       |
+            git | Perception | ----> developer 2 --> Working on Firmware feature      |
+     GitHub<----| code base  | ----> developer 3 --> Working on Custom Script feature | --> Collaborative way
+      Repo      |------------| ----> developer 4 --> Working on Probes feature        |
+                
+
+    After developing the code in their local machine, they are committed the code into GitHub repository.
+    After committed their code and raised the pull requests, developers may gets some kind of conflicts.
+    So the developers should resolve the merge conflicts and then raise the pull requests again.
+
+GitHub Actions ---> Continuous Integration and Continuous Development (CI/CD)
+
+Continuous Integration (CI) and Continuous Development (CD) are two key practices in modren software
+development, and GitHub Actions can facilitate both.
+
+Continuous Integration (CI): CI is a practice where developers frequently merge their code changes
+into a shared repository (feature branch to master branch). Each merge triggers an automated build
+and testing process to ensure the changes do not break the existing functionality. With GitHub Actions, 
+developers can setup workflows call it as custom workflows to automatically build and test their code
+every time they push changes to the shared repository or create a pull requests.
+
+Continuous Development (CD): CD extends the concepts of CI by automating the development of code to 
+production environments after it passes all required tests. GitHub Actions can be configured to automatically
+deploy applications to various environments, such as staging or prod or dev, once the code passes CI checks.
+This practice reduces the time between development and delpoyment, allowing for faster delivery of 
+features and updates.
+
+
+
